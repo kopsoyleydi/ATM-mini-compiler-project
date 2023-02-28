@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class CityBankATM extends CityBankAccount{
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("ENTER YOUR ACCOUNT NUMBER");
+        System.out.println("ENTER YOUR ACCOUNT");
         String accountNumberFromConsole = in.next();
         System.out.println("ENTER YOUR PIN CODE");
         String accountPinCodeFromConsole = in.next();

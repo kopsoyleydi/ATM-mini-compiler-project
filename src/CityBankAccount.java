@@ -35,6 +35,6 @@ public class CityBankAccount implements BankAccount{
         balance = balance + debet;
     };
     public String accountData(){
-        return "User name: "+name+", surname: "+ surname;
+        return "User name: "+name+",your name and surname: "+ surname;
     };
 }
